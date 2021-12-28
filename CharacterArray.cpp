@@ -3,6 +3,19 @@
 #include<iostream>
 using namespace std;
 
+// reverse a string function
+
+void reverseString(char name[], int n){
+    int start = 0;
+    int end = n -1;
+
+    while(start<end){
+        swap(name[start++], name[end--]);
+    }
+    
+}
+
+
 // Calculate length of character array
 
 int getCharArrayLength(char name[]){
