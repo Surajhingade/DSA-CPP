@@ -52,11 +52,16 @@ int main() {
  cout<<"Your Name is " + name;
 
 
+// call getCharArrayLength function
+
  cout<<"Length of Character array name is : "<<getCharArrayLength(name)<<endl;
  
  // output is 
  // Your Name is hello
  // Length of Character array name is : 5 
+
+
+ // call palindrome function
 
 cout<<"checkPalindrome is or not"<<checkPalindrome(name,getCharArrayLength(name));
 
