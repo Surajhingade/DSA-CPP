@@ -11,6 +11,7 @@ bool checkPalindrome(char name[] , int n){
 
     if(name[start] != name[end]){
         return 0;
+        
     }
     else{
         start++;
