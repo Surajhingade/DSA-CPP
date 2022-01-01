@@ -40,6 +40,23 @@ int power(int n){
 }
 
 
+// recursive function for print counting 
+
+void print(int n){
+    //base case 
+    if(n==0){
+        return ;
+    }
+
+    // head recursion processing step
+    // cout<<n<<endl;
+
+    print(n-1);
+
+    // tail recursion means pricessing step
+    cout<<n<<endl;
+}
+
 
 int main(){
 
